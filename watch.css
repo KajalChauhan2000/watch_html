@@ -1,0 +1,435 @@
+html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  /* ---------HEADER--------- */
+  .h1{
+    background-color:black; 
+    padding: 10px;
+  }
+  img{
+    height: 50px;
+    margin-left: 650px;
+  }
+  .h2{
+    margin-top: -40px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+  .h3{
+    margin-top: -20px;
+    margin-left: 1180px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+  /* ------------------------icon----------------------- */
+  .i1{
+    color: white;
+    margin-top: -21px;
+    margin-left: 28px;
+  }
+  .i2{
+    color: white;
+    margin-left: 1160px;
+    margin-top: -18px;
+  }
+  .i3{
+    color: white;
+    margin-left: 1260px;
+    margin-top: -19px;
+  }
+  
+  /* =============Navbar Start============== */
+  .navbar {
+    background-color: white;
+  }
+  .navbar{
+    display: flex; 
+    justify-content: center; 
+    list-style-type: none;
+     margin: 10px 0px 20px 0px;
+  }
+  
+  .navbar li {
+    padding: 30px;
+    background-color: rgba(249, 187, 42, 0);
+    font-size: 30px;
+    /* background-color: azure; */
+  }
+  
+  .navbar li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    overflow-x: hidden;
+  }
+  
+  /* ===============Navbar End================= */
+  .img1 {
+    background-image: url('homepage\ 1.webp');
+    margin: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+  }
+  /* ------seller------ */
+  .seller{
+     text-align: center;
+     font-size: 50px;
+     margin-top: 60px;
+  }
+  /* ---------------images------------------ */
+  .b1 img{
+  height: 450px;
+  margin-left: 100px;
+  margin-top:10px;
+  }
+  .b2 img{
+    height: 350px;
+    position: absolute;
+    top: 1090px;
+    left: -110px;
+  }
+  .b3 img{
+    height: 350px;
+    position: absolute;
+    top: 1090px;
+    left: 450px;
+    
+  }
+  .b4 img{
+    height: 450px;
+    position: absolute;
+    top: 1580px;
+    left: -620px;
+    
+  }
+  .b5 img{
+    height: 450px;
+    position: absolute;
+    top: 1550px;
+    left: -100px;
+    
+  }.b6 img{
+    height: 400px;
+    position: absolute;
+    top: 1610px;
+    left: 430px;
+    
+  }
+  /* ------------------Price------------------ */
+  .p1{
+    margin: -10px 70px;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .p2{
+    margin: -50px 550px;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .p3{
+    margin: -50px 1050px;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .p4{
+    margin: 570px 70px;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .p5{
+    margin: -604px 550px;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .p6{
+    margin: 568px 1050px;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  /* -------------------------------button------------------------ */
+  .button{
+     position: absolute;
+     top: 2200px;
+     left: 680px;
+     padding: 15px 40px 15px 40px;
+     font-size: 18px;
+     color: white;
+     background-color: rgba(4, 4, 138, 0.984);
+  }
+  /* ---------------------women----------------------- */
+  .women img{
+   height: 530px;
+   margin-top: -350px;
+   margin-left: 0px;
+  }
+
+  .w1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: -80px;
+    color: rgb(255, 246, 246);
+  }
+  /* -----------------men--------------------- */
+  .men img{
+  height: 529px;
+   margin: -509px 0px 0px 750px;
+   }
+   .m1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 1120px;
+    margin-top: -80px;
+    color: rgb(255, 246, 246);
+   }
+   
+   /* --------------our brands--------------- */
+  
+   .brands{
+    text-align: center;
+    font-size: 50px;
+    margin: 100px 0px 20px 0px;
+ }
+ .omega img{
+  height: 320px;
+  margin-left: -10px;
+  margin-top: 40px;
+ }
+ .rolex img{
+  height: 320px;
+  margin: -450px 0px 19px 515px;
+ }
+ .timex img{
+  height: 320px;
+  /* margin-left: 1050px;
+  margin-top: -420px; */
+  margin: -400px 0px 35px 1010px;
+ }
+ /* ---------------------brand name-------------- */
+ .o1{
+  font-size: 42px;
+  font-weight: bolder;
+  margin-left: 150px;
+  margin-top: -30px;
+ }
+ .r1{
+  font-size: 42px;
+  font-weight: bolder;
+  margin-left: 680px;
+  margin-top: -45px;
+ }
+ .t1{
+  font-size: 42px;
+  font-weight: bolder;
+  margin-left: 1180px;
+  margin-top: -45px;
+ }
+ /* -----------------paragraph---------------- */
+ .para1{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 48px;
+  font-weight: 900;
+ }
+ .para2{
+  margin-top: 30px;
+  margin-left: 220px;
+  font-size: 16px;
+  font-weight: 500;
+ }
+ .para3{
+  margin-top: 10px;
+  margin-left: 220px;
+  font-size: 16px;
+  font-weight: 500;
+ }
+ .para4{
+  margin-top: -25px;
+  margin-left: 220px;
+  font-size: 16px;
+  font-weight: 500;
+ }
+ .para5{
+  margin-top: 10px;
+  margin-left: 220px;
+  font-size: 16px;
+  font-weight: 500;
+ }
+ /* ----------------------icon-------------------------- */
+ .icon{
+  margin-top: 80px;
+  height: 200px;
+  width: 1700px;
+  background-color: black;
+ }
+ .icon1{
+  color: white;
+  font-size: 48px;
+  margin: -140px 0px 0px 200px;
+ }
+ .icon2 {
+  color: white;
+  font-size: 48px;
+  margin: -55px 0px 0px 450px;
+ }
+ .icon3{
+  color: white;
+  font-size: 48px;
+  margin: -55px 0px 0px 970px;
+ }
+ .icon4{
+  color: white;
+  font-size: 48px;
+  margin: -60px 0px 0px 700px;
+ }
+ .icon5{
+  color: white;
+  font-size: 48px;
+  margin: -50px 0px 0px 1250px; 
+ }
+
+ /* ----------------------Name------------------- */
+ .n1{
+  margin: 15px 0px 0px 150px;
+  color: white;
+ }
+ .n2{
+  margin: -18px 0px 0px 420px;
+  color: white;
+ }
+ .n3{
+  margin: -18px 0px 0px 670px;
+  color: white;
+ }
+ .n4{
+  margin: -20px 0px 0px 950px;
+  color: white;
+ }
+ .n5{
+  margin: -18px 0px 0px 1180px;
+  color: white;
+ }
+ /* --------------------shop------------------- */
+
+  .shop1 img{
+    margin: 170px 0px 0px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+  .shop2 img{
+    position: absolute;
+    top: 4253px;
+    left: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+  /* ---------------------button2 shop now-------------------- */
+
+ .shopnow{
+  margin-top: 30px;
+  padding: 15px 40px 15px 40px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(4, 4, 138, 0.984);
+ }
+ /* -----------------------footer------------------------- */
+ .u1{
+ margin-top: 80px;
+ margin-left: 100px;
+ font-size: 28px;
+
+ }
+ .u2{
+  margin: -166px 0px 0px 350px;
+  font-size: 28px;
+ 
+ }
+ .u3{
+  margin:  -250px 0px 0px 800px;
+  font-size: 28px;
+ 
+ }
+ .u4{
+  margin: -167px 0px 0px 1000px;
+  font-size: 28px;
+  
+ }
+ /* ------------------------ */
+ .f1{
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 18px;
+ }
+ .f2{
+  margin-left: 400px;
+  margin-top: 10px;
+  font-size: 18px;
+ }
+ .f3{
+  margin-left: 800px;
+  margin-top: 10px;
+  font-size: 18px;
+ }
+ .f4{
+  margin-left: 1000px;
+  margin-top: 10px;
+  font-size: 18px;
+ }
+ /* ----------------------- */
+ .input{
+  margin:  30px 0px 0px 1000px;
+  padding: 15px;
+  width: 250px;
+ }
+ .sub{
+  position: absolute;
+  top: 5034px;
+  padding: 13px 30px 13px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(4, 4, 138, 0.984);
+ }
+ /* ------------------- */
+ .stay{
+  margin: 20px 0px 0px 1000px;
+  font-size: 18px;
+ }
+ .insta{
+  margin: -20px 0px 0px 1120px;
+  font-size: 18px;
+ }
+ .face{
+  margin: -21px 0px 0px 1150px;
+  font-size: 18px;
+ }
+ .twitter{
+  margin: -20px 0px 0px 1180px;
+  font-size: 18px;
+ }
+ .youtube{
+  margin: -20px 0px 0px 1210px;
+  font-size: 18px;
+ }
+ /* ------------------------ */
+ .JustWatch{
+   margin: 80px 0px 40px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+ }
